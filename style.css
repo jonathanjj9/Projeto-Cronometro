@@ -84,7 +84,7 @@ body {
     @media screen and (max-width: 554px){
 
         .container h1{
-            color: #000000 ;
+            color: #FFFFFF;
             font-size: 45px;
         }
 
@@ -118,7 +118,7 @@ body {
 
 @media screen and (max-width: 470px){
     .container h1{
-        color: #000000 ;
+        color: #FFFFFF ;
         font-size: 30px;
     }
 
