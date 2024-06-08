@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: blueviolet;
+    background-color: 	#0000CD
 }
 
 .container {
@@ -18,13 +18,14 @@ body {
 }
 
 .container h1{
-    color: #000000 ;
+    color: #FFFFFF;
     font-size: 50px;
 }
 
 .temporizador{
     color: #ff0000 ;
     margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     font-size: 100px;  
@@ -63,6 +64,111 @@ body {
 
 
 #start{
-    color: #ff0000;
-    background-color: black;
+    color: #000000;
+    background-color: #00FF00;
 }
+
+@media screen and (max-width: 745px){
+
+    .temporizador{
+        
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        font-size: 60px;  
+    
+    }
+}
+
+    @media screen and (max-width: 554px){
+
+        .container h1{
+            color: #000000 ;
+            font-size: 45px;
+        }
+
+        .temporizador{
+            
+            margin-top: 30px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+            font-size: 40px;  
+        
+        }
+
+        .button{
+            display: inline;
+            justify-content: center;
+            font-size: 40px;
+            gap: 0.1;
+            cursor: pointer;
+            border: 3px solid black;
+            padding-left: 7px;
+            padding-right: 7px;
+            border-radius: 100px;
+            transition: all 0.2s ease-in-out;
+            margin-right: 10px;
+            margin-left: 10px;
+        
+        }
+
+}
+
+@media screen and (max-width: 470px){
+    .container h1{
+        color: #000000 ;
+        font-size: 30px;
+    }
+
+    .temporizador{
+        
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;  
+    
+    }
+
+    .button{
+        display: inline;
+        justify-content: center;
+        font-size: 30px;
+        cursor: pointer;
+        border: 3px solid black;
+        padding-left: 7px;
+        padding-right: 7px;
+        border-radius: 100px;
+        margin-right: 10px;
+        margin-left: 10px;
+    
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 470px){
+    
+
+    .button{
+        display: inline;
+        justify-content: center;
+        font-size: 25px;
+        cursor: pointer;
+        border: 3px solid black;
+        padding-left: 7px;
+        padding-right: 7px;
+        border-radius: 100px;
+        margin-right: 10px;
+        margin-left: 10px;
+    
+    }
+
+
+
+}
+    
