@@ -12,7 +12,7 @@ function doisDigitos(digito) {
     }
 }
 function start() {
-    intervalo = setInterval(contar, 1000)
+    intervalo = setInterval(contar, 10)
 }
 
 function stop() {
